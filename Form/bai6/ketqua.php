@@ -104,7 +104,7 @@ function chonPhep($tt){
         </div>
         <div class="form-group">
             <div class="label-group">Kết Quả</div>
-            <div> <input type="number" readonly name="ketqua" value="<?php echo ketQua($so1,$so2,$tt) ?>" class="form-control"  aria-describedby="helpId">  </div>  
+            <div> <input type="number" readonly name="ketqua" value="<?php echo checkKQ($so1,$so2,$tt) ?>" class="form-control"  aria-describedby="helpId">  </div>  
         </div>
             <button name="submit"> <i>Quay lại trang trước</i> </button>
               </form>
